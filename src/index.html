@@ -45,6 +45,7 @@
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+        <!-- OneSignal -->
         <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
         <script>
         window.OneSignal = window.OneSignal || [];
@@ -53,6 +54,17 @@
             appId: "da723c1a-8632-480f-a62f-ffdfa0098a52",
             });
         });
+        </script>
+
+        <!-- Google Analytics  -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HN9DGWJBB3"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HN9DGWJBB3');
         </script>
         
     </head>
